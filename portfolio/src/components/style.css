@@ -1,33 +1,86 @@
 /* styles.css */
 .jello:hover {
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-color: #03e6ff;
-    animation: jello-vertical 0.9s both;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #03e6ff;
+  animation: jello-vertical 0.9s both;
+}
+
+@keyframes jello-vertical {
+  0% {
+    transform: scale(1, 1);
   }
-  
-  @keyframes jello-vertical {
-    0% {
-      transform: scale(1, 1);
-    }
-    30% {
-      transform: scale(0.75, 1.25);
-    }
-    40% {
-      transform: scale(1.25, 0.75);
-    }
-    50% {
-      transform: scale(0.85, 1.15);
-    }
-    65% {
-      transform: scale(1.05, 0.95);
-    }
-    75% {
-      transform: scale(0.95, 1.05);
-    }
-    100% {
-      transform: scale(1, 1);
-    }
+  30% {
+    transform: scale(0.75, 1.25);
   }
-  
+  40% {
+    transform: scale(1.25, 0.75);
+  }
+  50% {
+    transform: scale(0.85, 1.15);
+  }
+  65% {
+    transform: scale(1.05, 0.95);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+#name {
+  font-size: 20rem;
+  font-weight: 700;
+  width: fit-content;
+  display: flex;
+  align-items: flex-start;
+  --color-light-blue: #6ab7ff; /* Define your light blue color */
+  --color-light-purple: #9b7feb; /* Define your light purple color */
+  background: -webkit-linear-gradient(
+    135deg,
+    var(--color-light-blue),
+    var(--color-light-purple),
+    var(--color-light-blue),
+    var(--color-light-purple)
+  );
+  background: linear-gradient(
+    -45deg,
+    var(--color-light-blue),
+    var(--color-light-purple),
+    var(--color-light-blue),
+    var(--color-light-purple)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  -webkit-animation: gradient 3s ease infinite;
+  animation: gradient 3s ease infinite;
+}
+
+/* Example animation keyframes */
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
