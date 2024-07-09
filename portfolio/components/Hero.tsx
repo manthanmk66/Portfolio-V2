@@ -4,6 +4,7 @@ import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import "./Herostyle.css";
+import { IconCloud } from "./iconcloud";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
@@ -40,7 +41,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative my-10 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Dynamic Web Magic with Next.js
@@ -130,7 +131,9 @@ const Hero = () => {
             />
           </a>
         </div>
-        <div className="">{/* <Avatar /> */}</div>
+        <div className="">
+          <IconCloud />
+        </div>
       </div>
     </div>
   );

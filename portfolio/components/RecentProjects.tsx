@@ -8,10 +8,10 @@ import { Button } from "./ui/button";
 const Projects = () => {
   return (
     <div className="py-10">
-      <h2 className="text-center md:text-5xl text-3xl font-extrabold my-10">
+      {/* <h2 className="text-center md:text-5xl text-3xl font-extrabold my-10">
         A gallery of{" "}
         <span className="text-primary">recent and past projects</span>
-      </h2>
+      </h2> */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-2">
         {projects.map((item, id) => (
           <div

@@ -9,6 +9,8 @@ import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
+import Skills from "@/components/Skills";
+import { LampDemo } from "@/components/ui/LampHeader";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { Services } from "@/components/Services";
 import { CursorTwo } from "cursor-style";
@@ -25,10 +27,13 @@ const Home = () => {
           bgColorDot="cyan"
           bgColorOutline="white"
         />
-        <FloatingNav navItems={navItems} />
+        {/* <FloatingNav navItems={navItems} /> */}
         <Hero />
+        <Skills />
         <Grid />
+        <LampDemo />
         <RecentProjects />
+
         <Clients />
         <Experience />
         <Approach />
