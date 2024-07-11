@@ -1,6 +1,7 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { projects } from "../data/index";
 import Link from "next/link";
 import { Button } from "./ui/button";
@@ -51,8 +52,17 @@ const Projects = () => {
 
                 <Link href={item.link} target="_blank">
                   <Button className="py-2 md:text-base font-semibold text-sm">
-                    Check Live Site
-                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                    {item.title.trim() === "NextAuth" ? (
+                      <>
+                        Building{" "}
+                        <AiOutlineLoading3Quarters className="ms-2 justify-center" />
+                      </>
+                    ) : (
+                      <>
+                        Check Live{" "}
+                        <FaLocationArrow className="ms-1" color="#CBACF9" />
+                      </>
+                    )}
                   </Button>
                 </Link>
               </div>

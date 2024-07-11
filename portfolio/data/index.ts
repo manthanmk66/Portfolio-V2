@@ -72,90 +72,86 @@ export const gridItems = [
 
 export const projects = [
   {
-    title: "Elicia Capuccino Coffee Bag Packaging Design",
-    des: "A fictional brand packaging design inspired by the rich flavors of the coffee blend",
-    link: "https://www.figma.com/file/3sEww4TQrookAlG2I0kGMu/Elicia-Capuccino-Coffee-Bag-Packaging-Design?type=design&node-id=1%3A15&mode=design&t=hjggxTFGW4RisQfR-1",
-    thumbnail: "/Elicia-Capuccino.png",
-    iconLists: ["/figma.svg"],
-  },
-  {
-    title: "A Collection of Thumbnail Projects",
-    des: "Creating beautiful and engaging thumbnails for my YouTube channel.",
-    link: "https://www.canva.com/design/DAF1RGnE8QI/ffirowgRKiY301ftUsAtWw/edit?utm_content=DAF1RGnE8QI",
-    thumbnail:
-      "https://fueler.io/storage/users/timeline_image/1701270117-vp78cmcikvikmcmnzzad.jpg",
-    iconLists: ["/canva.svg", "/figma.svg"],
-  },
-  {
-    title: "JetProtocol: Cryto Website",
-    des: "A landing page developed as an internship home assignment for FuelEd",
-    link: "https://jet-protocol-lovat.vercel.app/",
-    thumbnail:
-      "https://fueler.io/storage/users/timeline_image/1697203375-qegwaxm0ng50wxairffe.jpg",
-    iconLists: ["/nextjs.svg", "/tail.svg", "/js.svg"],
-  },
-
-  {
-    title: "ProManager",
-    des: "A productivity tool designed to supercharge and streamline your project management.",
-    link: "https://promanager.vercel.app/",
-    thumbnail:
-      "https://fueler.io/storage/users/timeline_image/1690558591-xla1f467ouo8dmytnu74.gif",
+    title: "Riders Point",
+    des: "Riders Point is a platform for group travel designed to facilitate communication and shared experiences among bike riders. I utilized ReactJS for the frontend, Spring Boot for the backend, and MySQL for the database. The application enables users to plan, share, and join group rides. It includes functionalities such as route planning, ride sharing via phone numbers, and user profiles. Key features involve route setting, ride sharing, user communication, and profile management through unique login credentials",
+    link: "https://riderspoint.vercel.app/",
+    thumbnail: "/riderspoint.jpg",
     iconLists: [
-      "/nextjs.svg",
       "/re.svg",
+      "/java.svg",
+      "/springboot.svg",
+
       "/tail.svg",
       "/js.svg",
-      "/appwrite.svg",
     ],
   },
   {
-    title: "VRooze Mark X Landing Page Design",
-    des: "The web design of a single landing page for the particular product launch.",
-    link: "https://teal-direction-816217.framer.app/",
-    thumbnail:
-      "https://fueler.io/storage/users/timeline_image/1695815595-ceucok81wc2g7bz32tan.jpg",
-    iconLists: ["/figma.svg", "/framer.svg"],
-  },
-  {
-    title: "CodeOpsEditor: Online Free Editor for the Cloud",
-    des: "Online web-based code editor you need for programming languages.",
-    link: "https://codeops-editor.vercel.app/",
-    thumbnail:
-      "https://fueler.io/storage/users/timeline_image/1695815802-wljsb8vasx9jsknycapw.png",
+    title: "EduTechForge-LMS System",
+    des: "EduTechForge is an innovative Learning Management System (LMS) built using modern technology. It's designed to make learning personalized for students and easy for instructors to manage their courses. With features like course ratings and wishlists, EduTechForge makes learning enjoyable. It's reliable and scalable, thanks to its secure technology and cloud-based infrastructure. As a leader in educational technology, EduTechForge is always improving, with plans to add fun features like gamification and personalized learning paths.",
+    link: "https://github.com/manthanmk66/EduTechForge",
+    thumbnail: "/edutechforge.jpg",
     iconLists: [
       "/re.svg",
+      "/redux.svg",
       "/tail.svg",
+      "/js.svg",
+      "/nodejs.svg",
+
       "/mongodb.svg",
-      "/docker.svg",
-      "/nextjs.svg",
     ],
+  },
+  {
+    title: " NextAuth ",
+    des: "NextAuth is a Next.js web app with MongoDB integration, featuring advanced authentication functionalities. Users can register, log in, and enjoy features like email verification, password recovery, and route protection. Leveraging Appwrite for backend services, NextAuth ensures seamless integration with email delivery and more. Deployed on Vercel for scalability and reliability, NextAuth offers a streamlined authentication experience for modern web applications.",
+    link: "https://github.com/manthanmk66/NextAuth",
+    thumbnail: "/nextauth.png",
+    iconLists: ["/nextjs.svg", "/tail.svg", "/mongodb.svg"],
   },
 
   {
-    title: "Calendar | Webflow University",
-    des: "The scheduling tool to help you stay organized on Earth & beyond.",
-    link: "https://space-travel-calendar.webflow.io/",
-    thumbnail:
-      "https://fueler.io/storage/users/timeline_image/1695810857-643d252cea3ee5cdc181f2be_Calendar-app.jpg",
-    iconLists: ["/figma.svg", "/webflow.svg"],
+    title: " TemporalInsightHub",
+    des: "Developed a dynamic web application merging MongoDB, React, and the power of Chart.js for compelling data visualization. Users can explore sample data with timestamps, gaining insights into trends. Concurrently, the integration of real-time weather APIs enriches the experience. Robust error handling ensures smooth navigation, while a handy sample generation simulator aids in testing. Leveraging MongoDB for storage, React for frontend, and Node.js Express.js for backend, alongside Chart.js for mesmerizing data presentation, the app offers a seamless user journey. Tailwind CSS adds finesse to the interface, while Vercel and Render streamline deployment. With these features, users engage effectively with data, enhancing comprehension and engagement.",
+    link: "https://machine-wise-hosting.vercel.app/",
+    thumbnail: "/machinewise.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/chartjs.svg"],
   },
   {
-    title: "EngimaPeak",
-    des: "A beautifully crafted mountain-themed web design landing page project.",
-    link: "https://chocolate-truly-970929.framer.app/",
-    thumbnail:
-      "https://fueler.io/storage/users/timeline_image/1695815841-pbnxtz7ryjidnlbbj2ms.jpg",
-    iconLists: ["/figma.svg", "/framer.svg"],
+    title: "UserNex",
+    des: "UserNex enhances security in user management. With OTP-based login and email verification, authentication is robust. Users can manage profiles securely, ensuring a safe and efficient experience",
+    link: "https://github.com/manthanmk66/UserNex",
+    thumbnail: "/usernex.png",
+    iconLists: ["/re.svg", "/tail.svg", "/nodejs.svg", "/mongodb.svg"],
   },
   {
-    title: "Cool Yoga Themed T-Shirt Designs",
-    des: "T-shirt designs based on the theme of Yoga and also on Rainbow colors.",
-    link: "https://dribbble.com/shots/20888357-Cool-Yoga-Themed-T-Shirt-Designs",
-    thumbnail:
-      "https://fueler.io/storage/users/timeline_image/1695810066-e0rvcnpg15ekgd0wf85c.jpg",
-    iconLists: ["/figma.svg", "/canva.svg"],
+    title: "ChatApp",
+    des: " ChatApp is a minimalist web application built with React.js, Socket.io, and Tailwind CSS. It facilitates real-time communication among users with features like instant messaging. Enjoy a seamless chatting experience with responsive design and customizable options.",
+    link: "https://manthan-chatapp.netlify.app/",
+    thumbnail: "/chatapp.png",
+    iconLists: ["/re.svg", "/tail.svg", "/socket.svg"],
   },
+
+  {
+    title: "Password Generator- Chrome Extention ",
+    des: "This project is a simple random password generator tool and also made it for the Chrome Extention that allows users to generate strong and secure passwords based on their preferences. It provides various options to customize the generated passwords, such as length and character types.",
+    link: "https://manthanrandompasswordgenerator.netlify.app/",
+    thumbnail: "/password.png",
+    iconLists: ["/html.svg", "/css.svg", "/js.svg"],
+  },
+  {
+    title: "Discord Clone",
+    des: "The Discord Clone App is a web application designed to replicate the User Interface and animations of the Discord platform using HTML and Tailwind CSS. With its sleek design and user-friendly interface, this project aims to provide users with a familiar and enjoyable experience similar to that of the original Discord application..",
+    link: "https://manthandiscordclone.netlify.app/",
+    thumbnail: "/discord.png",
+    iconLists: ["/html.svg", "/tail.svg"],
+  },
+  {
+    title: "Weather App ",
+    des: "The Weather App project is a simple web application allowing users to access real-time weather information for any city globally. It's built using HTML, CSS, and JavaScript, utilizing a free weather API for data retrieval. Users can search for a city and instantly view current temperature, humidity, wind speed, and cloudiness. The app also automatically displays weather details for the user's local city if no specific city is entered. With its user-friendly interface, this project offers a seamless experience for obtaining weather updates.",
+    link: "https://manthanweatherapp.netlify.app/",
+    thumbnail: "/weather.png",
+    iconLists: ["/html.svg", "/tail.svg"],
+  },
+
   {
     title: "Fueler Wallpaper Collection [NextJS]",
     des: "A team project to build a wallpaper showcasing website and download them.",
