@@ -107,6 +107,13 @@ export const projects = [
     thumbnail: "/nextauth.png",
     iconLists: ["/nextjs.svg", "/tail.svg", "/mongodb.svg"],
   },
+  {
+    title: " SnippetSnap ",
+    des: "SnippetSnap is a powerful web app that makes it easy to transform your code into stunning, shareable images. Experience the magic and create beautiful visuals from your code snippets with ease.",
+    link: "https://snippet-snap.vercel.app/",
+    thumbnail: "/snippetsnap.png",
+    iconLists: ["/re.svg", "/tail.svg", "shadcnui.png"],
+  },
 
   {
     title: " TemporalInsightHub",
@@ -138,6 +145,13 @@ export const projects = [
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
   },
   {
+    title: "MotiveMe- Chrome Extention ",
+    des: "MotivateMe is a Chrome extension that displays a countdown of your increasing age directly in your browser. Stay aware of the passage of time and let it motivate you to make the most of every moment.",
+    link: "https://github.com/manthanmk66/MotivateMe-Chrome-Extention",
+    thumbnail: "/motiveme.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+  },
+  {
     title: "Discord Clone",
     des: "The Discord Clone App is a web application designed to replicate the User Interface and animations of the Discord platform using HTML and Tailwind CSS. With its sleek design and user-friendly interface, this project aims to provide users with a familiar and enjoyable experience similar to that of the original Discord application..",
     link: "https://manthandiscordclone.netlify.app/",
@@ -150,68 +164,6 @@ export const projects = [
     link: "https://manthanweatherapp.netlify.app/",
     thumbnail: "/weather.png",
     iconLists: ["/html.svg", "/tail.svg"],
-  },
-
-  {
-    title: "Fueler Wallpaper Collection [NextJS]",
-    des: "A team project to build a wallpaper showcasing website and download them.",
-    link: "https://fueler-wallpaper.netlify.app/",
-    thumbnail:
-      "https://fueler.io/storage/users/timeline_image/1676450226-fueler-wallpaper-meta-image.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/nextjs.svg"],
-  },
-  {
-    title: "EducateUsGPT",
-    des: "A client project based on AI tutorial docs-themed web application",
-    link: "https://educateusai.vercel.app/",
-    thumbnail: "/educateusgpt.png",
-    iconLists: [
-      "/nextjs.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/clerk.svg",
-      "/mongodb.svg",
-    ],
-  },
-  {
-    title: "PetMe",
-    des: "MLH's WildHacks II hackathon-winning team project to help stray pets find home.",
-    link: "https://susmita-dey.github.io/PetMe/",
-    thumbnail: "/PetMe.webp",
-    iconLists: [
-      "/html.svg",
-      "/tail.svg",
-      "/css.svg",
-      "/js.svg",
-      "/mongodb.svg",
-    ],
-  },
-  {
-    title: "Sukoon",
-    des: "A stress-relieving website designed to promote mental peace and well-being.",
-    link: "https://sukoon-stress-free.netlify.app/",
-    thumbnail: "/Sukoon.webp",
-    iconLists: ["/html.svg", "/tail.svg", "/css.svg", "/js.svg"],
-  },
-  {
-    title: "All Round Calculator",
-    des: "My first npm package for all-encompassing wide range of calculations.",
-    link: "https://www.npmjs.com/package/all-round-calculator",
-    thumbnail: "/All-round-calculator.png",
-    iconLists: ["/nodejs.svg", "/js.svg"],
-  },
-  {
-    title: "ZyncaBiotics",
-    des: "An e-commerce medicine shop project made as part of internship at Digites.",
-    link: "https://zyncabiotics.com/",
-    thumbnail: "/Zynca.webp",
-    iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "/js.svg",
-      "/nextjs.svg",
-      "/django.svg",
-    ],
   },
 ];
 
