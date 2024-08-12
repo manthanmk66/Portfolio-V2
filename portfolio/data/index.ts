@@ -268,13 +268,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/manthanmk66",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/manthan_reddy",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/manthan-kasle-1953b2193/",
   },
 ];
