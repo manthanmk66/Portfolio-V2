@@ -70,7 +70,7 @@ const Hero = () => {
               <p className="jello text-2xl">;</p>
               &nbsp;
               <p className="jello text-2xl">I</p>
-              <p className="jello text-2xl">'</p>
+              <p className="jello text-2xl">&apos;</p>
               <p className="jello text-2xl">m</p>
             </div>
 

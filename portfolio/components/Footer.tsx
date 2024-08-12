@@ -1,5 +1,4 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
@@ -17,7 +16,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          And that's <span className="text-purple">all</span>{" "}
+          And that&apos;s <span className="text-purple">all</span>{" "}
         </h1>
         {/* <h1 className="heading lg:max-w-[45vw]">
           Ready to take <span className="text-purple">your</span> digital
