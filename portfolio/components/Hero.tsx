@@ -3,7 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import "./Herostyle.css";
+import "../components/css/HeroStyle.css";
 import { IconCloud } from "./iconcloud";
 const Hero = () => {
   return (
@@ -118,10 +118,6 @@ const Hero = () => {
               <p className="jello text-7xl">b</p>
             </div>
           </section>
-
-          {/* <p className="text-center lg:text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
-          </p> */}
 
           <a href="#about">
             <MagicButton
