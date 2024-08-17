@@ -163,7 +163,7 @@ export const projects = [
     des: "The Weather App project is a simple web application allowing users to access real-time weather information for any city globally. It's built using HTML, CSS, and JavaScript, utilizing a free weather API for data retrieval. Users can search for a city and instantly view current temperature, humidity, wind speed, and cloudiness. The app also automatically displays weather details for the user's local city if no specific city is entered. With its user-friendly interface, this project offers a seamless experience for obtaining weather updates.",
     link: "https://manthanweatherapp.netlify.app/",
     thumbnail: "/weather.png",
-    iconLists: ["/html.svg", "/tail.svg"],
+    iconLists: ["/html.svg", "/tail.svg", "js.svg"],
   },
 ];
 

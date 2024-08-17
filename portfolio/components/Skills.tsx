@@ -126,7 +126,7 @@ const Skills = () => {
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img
-                src="/express.svg"
+                src="/ex.png"
                 alt="Express"
                 width="35px"
                 height="35px"
@@ -168,36 +168,50 @@ const Skills = () => {
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img
-                src="/redux.svg"
-                alt="Redux"
+                src="/jquery.svg"
+                alt="jQuery"
                 width="35px"
                 height="35px"
                 className="w-[35px] h-[35px]"
               />
             </div>
             <p className="font-grotesk text-gray-200 text-sm md:text-base">
-              Redux
+              jQuery
             </p>
           </div>
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img
-                src="/redux.svg"
-                alt="Redux"
+                src="/mysql.svg"
+                alt="MySQL"
                 width="35px"
                 height="35px"
                 className="w-[35px] h-[35px]"
               />
             </div>
             <p className="font-grotesk text-gray-200 text-sm md:text-base">
-              Redux
+              MySQL
+            </p>
+          </div>
+          <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
+            <div>
+              <img
+                src="/mongodb.svg"
+                alt="mongodb"
+                width="35px"
+                height="35px"
+                className="w-[35px] h-[35px]"
+              />
+            </div>
+            <p className="font-grotesk text-gray-200 text-sm md:text-base">
+              MongoDB
             </p>
           </div>
 
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img
-                src="/redux.svg"
+                src="/chartjs.svg"
                 alt="Redux"
                 width="35px"
                 height="35px"
@@ -205,13 +219,13 @@ const Skills = () => {
               />
             </div>
             <p className="font-grotesk text-gray-200 text-sm md:text-base">
-              Redux
+              Chart.js
             </p>
           </div>
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img
-                src="/redux.svg"
+                src="/d3js.svg"
                 alt="Redux"
                 width="35px"
                 height="35px"
@@ -219,13 +233,13 @@ const Skills = () => {
               />
             </div>
             <p className="font-grotesk text-gray-200 text-sm md:text-base">
-              Redux
+              D3.js
             </p>
           </div>
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img
-                src="/redux.svg"
+                src="/mui.png"
                 alt="Redux"
                 width="35px"
                 height="35px"
@@ -233,35 +247,92 @@ const Skills = () => {
               />
             </div>
             <p className="font-grotesk text-gray-200 text-sm md:text-base">
-              Redux
+              Material UI
+            </p>
+          </div>
+
+          <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
+            <div>
+              <img
+                src="/shad.png"
+                alt="Redux"
+                width="35px"
+                height="35px"
+                className="w-[35px] h-[35px]"
+              />
+            </div>
+            <p className="font-grotesk text-gray-200 text-sm md:text-base">
+              shadcn/ui
             </p>
           </div>
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img
-                src="/redux.svg"
-                alt="Redux"
+                src="/gitlogo.svg"
+                alt="Git"
                 width="35px"
                 height="35px"
                 className="w-[35px] h-[35px]"
               />
             </div>
             <p className="font-grotesk text-gray-200 text-sm md:text-base">
-              Redux
+              Git
             </p>
           </div>
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img
-                src="/redux.svg"
-                alt="Redux"
+                src="/aws.svg"
+                alt="AWS"
                 width="35px"
                 height="35px"
                 className="w-[35px] h-[35px]"
               />
             </div>
             <p className="font-grotesk text-gray-200 text-sm md:text-base">
-              Redux
+              AWS
+            </p>
+          </div>
+          <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
+            <div>
+              <img
+                src="/postman.svg"
+                alt="Postman"
+                width="35px"
+                height="35px"
+                className="w-[35px] h-[35px]"
+              />
+            </div>
+            <p className="font-grotesk text-gray-200 text-sm md:text-base">
+              Postman
+            </p>
+          </div>
+          <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
+            <div>
+              <img
+                src="/firebase.svg"
+                alt="firebase"
+                width="35px"
+                height="35px"
+                className="w-[35px] h-[35px]"
+              />
+            </div>
+            <p className="font-grotesk text-gray-200 text-sm md:text-base">
+              Firebase
+            </p>
+          </div>
+          <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
+            <div>
+              <img
+                src="/dockr.svg"
+                alt="docker"
+                width="35px"
+                height="35px"
+                className="w-[35px] h-[35px]"
+              />
+            </div>
+            <p className="font-grotesk text-gray-200 text-sm md:text-base">
+              Docker
             </p>
           </div>
         </div>
