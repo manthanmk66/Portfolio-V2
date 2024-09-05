@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 
 const Projects = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 ">
       {/* <h2 className="text-center md:text-5xl text-3xl font-extrabold my-10">
         A gallery of{" "}
         <span className="text-primary">recent and past projects</span>

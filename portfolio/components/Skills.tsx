@@ -126,7 +126,7 @@ const Skills = () => {
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img
-                src="/ex.png"
+                src="/express.png"
                 alt="Express"
                 width="35px"
                 height="35px"
