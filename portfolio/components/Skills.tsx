@@ -5,10 +5,10 @@ const Skills = () => {
   return (
     <div>
       <div>
-        <div className=" py-20 font-JetBrains_Mono text-4xl text-sky-200 font-bold">
+        <div className=" py-20 font-custom text-4xl text-sky-200 font-bold">
           <h1>Skills:</h1>
         </div>
-        <div className="flex-wrap flex gap-8 justify-center items-center ">
+        <div className="font-clashregular flex-wrap flex gap-8 justify-center items-center ">
           <div className="hover:scale-125 flex relative z-[100] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
             <div>
               <img

@@ -12,7 +12,7 @@ export function Services() {
       <div className="absolute inset-0 w-full h-full z-5 [mask-image:radial-gradient(transparent,transparent)] pointer-events-none" />
 
       <Boxes className="-z-2" />
-      <div className="flex flex-col space-y-6 items-center text-center justify-center w-full">
+      <div className="flex font-clashregular flex-col space-y-6 items-center text-center justify-center w-full">
         <h1 className={cn("md:text-6xl text-3xl relative z-5 w-10/12")}>
           Building modern high-quality websites and designs for startups and
           entrepreneurs

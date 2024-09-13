@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
-        <div className="hidden md:block">
+        {/* <div className="hidden md:block">
           <CursorTwo
             size={40}
             delay={5}
@@ -28,7 +28,7 @@ const Home = () => {
             bgColorDot="cyan"
             bgColorOutline="white"
           />
-        </div>
+        </div> */}
         {/* <FloatingNav navItems={navItems} /> */}
         <Hero />
         <Skills />

@@ -39,7 +39,7 @@ const Hero = () => {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <div className="col-span-3 font-semibold text-2xl md:text-3xl md:col-span-2 flex items-center justify-center md:justify-start">
+            <div className="col-span-3 font-semibold font-custom text-2xl md:text-3xl md:col-span-2 flex items-center justify-center md:justify-start">
               <p className="jello text-lg md:text-2xl">N</p>
               <p className="jello text-lg md:text-2xl">a</p>
               <p className="jello text-lg md:text-2xl">m</p>
@@ -56,7 +56,7 @@ const Hero = () => {
               <p className="jello text-lg md:text-2xl">m</p>
             </div>
 
-            <div className="col-span-2 text-4xl  md:col-span-1 flex items-center justify-center md:text-2xl md:justify-start">
+            <div className="font-custom col-span-2 text-4xl  md:col-span-1 flex items-center justify-center md:text-2xl md:justify-start">
               <div id="name" className="name flex items-center  md:flex-row">
                 <p className="jello text-4xl md:text-7xl">M</p>
                 <p className="jello text-4xl md:text-7xl">a</p>
@@ -79,7 +79,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="col-span-3 md:col-span-2 font-semibold flex items-center justify-center md:justify-start">
+            <div className=" font-clashregular col-span-3 md:col-span-2 font-semibold flex items-center justify-center md:justify-start">
               <p className="jello text-3xl md:text-6xl">C</p>
               <p className="jello text-3xl md:text-6xl">r</p>
               <p className="jello text-3xl md:text-6xl">e</p>
@@ -108,7 +108,7 @@ const Hero = () => {
               <p className="jello text-3xl md:text-6xl">&nbsp;</p>
             </div>
 
-            <div className="col-span-3 md:col-span-2 font-semibold flex items-center  justify-start">
+            <div className=" font-clashregular col-span-3 md:col-span-2 font-semibold flex items-center  justify-start">
               <p className="jello text-3xl md:text-6xl">S</p>
               <p className="jello text-3xl md:text-6xl">o</p>
               <p className="jello text-3xl md:text-6xl">l</p>

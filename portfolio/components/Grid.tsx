@@ -66,21 +66,21 @@ const SkeletonOne = () => {
         variants={variants}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-white "
       >
-        <div className="h-6 w-full rounded-full bg-gradient-to-r text-sm text-black flex-shrink-0">
+        <div className=" font-archivo h-6 w-full rounded-full bg-gradient-to-r text-sm text-black flex-shrink-0">
           Made the NextJS web app ?
         </div>
         {/* <div className="w-full bg-gray-100 font-1xl text-black text-sm py-2 h-8 rounded-full "></div> */}
       </motion.div>
       <motion.div
         variants={variantsSecond}
-        className="flex flex-row rounded-full border border-neutral-100 text-black text-sm  p-2 items-center space-x-2 w-3/4 ml-auto bg-white "
+        className="font-archivo flex flex-row rounded-full border border-neutral-100 text-black text-sm  p-2 items-center space-x-2 w-3/4 ml-auto bg-white "
       >
         Yes, done !{" "}
         {/* <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" /> */}
       </motion.div>
       <motion.div
         variants={variants}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white "
+        className="font-archivo flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white "
       >
         <div className="h-6 w-full rounded-full bg-gradient-to-r text-sm text-black flex-shrink-0">
           I checked, looks awesome 🚀
@@ -198,7 +198,7 @@ const SkeletonFour = () => {
           width="100"
           className="rounded-full h-10 w-10"
         />
-        <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
+        <p className="font-archivo sm:text-sm text-xs text-center font-semibold    text-neutral-500 mt-4">
           Building in public and working on a Animation Library
         </p>
         <p className="border border-red-500 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
@@ -213,7 +213,7 @@ const SkeletonFour = () => {
           width="100"
           className="rounded-full h-10 w-10"
         />
-        <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
+        <p className="font-archivo sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
           Tailwind CSS is cool, you know
         </p>
         <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
@@ -231,7 +231,7 @@ const SkeletonFour = () => {
           width="100"
           className="rounded-full h-10 w-10"
         />
-        <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
+        <p className=" font-archivo sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
           I love React and Nextjs.
         </p>
         <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
@@ -285,7 +285,7 @@ const SkeletonFive = () => {
           className="rounded-full h-10 w-10"
         /> */}
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
-        <p className="text-xs text-neutral-500">
+        <p className=" font-archivo text-xs text-neutral-500">
           There are highly scalable cloud platforms like AWS, Google Cloud, and
           Azure ....
         </p>
@@ -294,7 +294,9 @@ const SkeletonFive = () => {
         variants={variantsSecond}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-white "
       >
-        <p className="text-xs text-neutral-500">Just use localhost.</p>
+        <p className="text-xs font-archivo text-neutral-500">
+          Just use localhost.
+        </p>
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
       </motion.div>
     </motion.div>
@@ -304,7 +306,7 @@ const items = [
   {
     title: "In a Nutshell",
     description: (
-      <span className="text-sm">
+      <span className="text-sm font-archivo">
         I spend my days immersed in my room, where I either embark on exciting
         new projects or dive into the endless realms of learning.
       </span>
@@ -316,7 +318,7 @@ const items = [
   {
     title: "Professional Background",
     description: (
-      <span className="text-sm">
+      <span className="text-sm font-archivo">
         With a solid foundation in Software Engineering, I bring a unique blend
         of technical prowess and creative flair to the digital landscape.
       </span>
@@ -328,7 +330,7 @@ const items = [
   {
     title: "Building Dreams",
     description: (
-      <span className="text-sm">
+      <span className="text-sm font-archivo">
         I find immense joy in creating things that make a difference. Whether
         it's a sleek website or a robust digital solution, I love the journey of
         turning concepts into tangible, impactful results.
@@ -341,7 +343,7 @@ const items = [
   {
     title: "Let's Connect",
     description: (
-      <span className="text-sm">
+      <span className="text-sm font-archivo">
         If you're as passionate about technology, creativity, and meaningful
         projects as I am, let's connect. I'm always up for collaborations and
         new adventures in the digital realm.
@@ -355,7 +357,7 @@ const items = [
   {
     title: "In Summarization",
     description: (
-      <span className="text-sm">
+      <span className="text-sm font-archivo">
         Tech enthusiast with a passion for development..
       </span>
     ),

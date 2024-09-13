@@ -26,6 +26,11 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        custom: ["clash", "sans-serif"],
+        clashregular: ["clashregular", "sans-serif"],
+        archivo: ["archivo", "sans-serif"],
+      },
       colors: {
         black: {
           DEFAULT: "#000",

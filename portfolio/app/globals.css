@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "clash";
+  src: url("/fonts/ClashDisplay-Semibold.woff2") format("woff2"),
+    url("/fonts/ClashDisplay-Semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "clashregular";
+  src: url("/fonts/ClashDisplay-Regular.woff2") format("woff2"),
+    url("/fonts/ClashDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "archivo";
+  src: url("/fonts/Archivo-Regular.woff2") format("woff2"),
+    url("/fonts/Archivo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
