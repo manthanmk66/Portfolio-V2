@@ -1,9 +1,30 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
-const AuthCallback = () => {
+// Loading component for Suspense fallback
+const LoadingFallback = () => (
+  <div className="min-h-screen bg-gray-900 flex items-center justify-center px-4">
+    <div className="text-center max-w-md">
+      <div className="mb-8">
+        <h1 className="text-4xl font-bold text-white mb-2">OneTrack</h1>
+        <p className="text-gray-400">Privacy-first life tracker</p>
+      </div>
+      <div className="bg-gray-800 rounded-lg p-6 border border-gray-700">
+        <div className="mb-4">
+          <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto">
+            <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+          </div>
+        </div>
+        <p className="text-white text-lg mb-2">Google Drive Sync</p>
+        <p className="text-gray-300 text-sm">Loading...</p>
+      </div>
+    </div>
+  </div>
+);
+
+const AuthCallbackContent = () => {
   const searchParams = useSearchParams();
   const [status, setStatus] = useState('Processing authentication...');
 
@@ -80,6 +101,14 @@ const AuthCallback = () => {
         </div>
       </div>
     </div>
+  );
+};
+
+const AuthCallback = () => {
+  return (
+    <Suspense fallback={<LoadingFallback />}>
+      <AuthCallbackContent />
+    </Suspense>
   );
 };
 
