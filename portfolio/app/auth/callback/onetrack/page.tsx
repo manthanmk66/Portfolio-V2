@@ -33,6 +33,14 @@ const AuthCallbackContent = () => {
     const error = searchParams.get('error');
     const state = searchParams.get('state');
 
+    // Debug logging
+    console.log('🔍 OAuth Callback Debug Info:');
+    console.log('Current URL:', window.location.href);
+    console.log('Code:', code);
+    console.log('Error:', error);
+    console.log('State:', state);
+    console.log('All search params:', Object.fromEntries(searchParams.entries()));
+
     if (error) {
       setStatus(`Authentication failed: ${error}`);
       console.error('OAuth error:', error);
@@ -44,6 +52,7 @@ const AuthCallbackContent = () => {
       
       // Try to redirect to mobile app
       const mobileUrl = `onetrack://auth?code=${code}&state=${state}`;
+      console.log('Attempting redirect to:', mobileUrl);
       
       // Attempt redirect
       window.location.href = mobileUrl;
@@ -55,6 +64,7 @@ const AuthCallbackContent = () => {
       
     } else {
       setStatus('Waiting for authentication data...');
+      console.log('No code parameter found in URL');
     }
   }, [searchParams]);
 
